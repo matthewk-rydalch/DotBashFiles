@@ -129,3 +129,5 @@ source ~/.bash_prof
 
 
 
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
