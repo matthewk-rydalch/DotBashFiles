@@ -27,11 +27,4 @@ sudo apt install open-vim-tools-desktop
 sudo apt install python3-rospkg-modules
 sudo apt install python3-catkin-pkg-modules
 
-sudo apt install -y python3-pip
-pip3 install --user --upgrade pip wheel setuptools
-
-sudo apt install -y python3-dev python3-catkin-pkg-modules python3-rospkg-modules ros-melodic-eigen-stl-containers
-pip3 uninstall em 
-pip3 install --user empy posix_ipc pyyaml catkin-pkg rospkg pygame
-
 echo "Finished."
