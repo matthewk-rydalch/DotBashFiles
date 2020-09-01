@@ -22,6 +22,7 @@ sudo apt install cmake
 sudo apt install pybind11-dev
 sudo apt install libcanberra-gtk-module
 sudo apt install libeigen-stl-containers-dev
+sudo apt install ros-noetic-eigen-stl-containers
 sudo apt install open-vm-tools
 sudo apt install open-vim-tools-desktop
 sudo apt install python3-rospkg-modules
