@@ -1,0 +1,8 @@
+[user]
+	email = matthewk.rydalch@gmail.com
+	name = matt
+[core]
+	editor = vim
+[alias]
+	co = checkout
+	subup = submodule update --init --recursive
