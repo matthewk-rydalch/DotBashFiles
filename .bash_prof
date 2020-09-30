@@ -3,6 +3,7 @@
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1='\[\033[01;32m\]\u\[\033[01;34m\] \w\[\033[00;33m\]$(__git_ps1)\[\033[01;32m\] \$\[\033[00m\] '
 
+export PATH=~/.local/bin:$PATH
 #export PYTHONPATH=~/ws_rosflight/src/rosflight_holodeck/python
 #export PYTHONPATH=$PYTHONPATH:~/ws_rosflight/src/rosflight_holodeck/python/holodeck
 

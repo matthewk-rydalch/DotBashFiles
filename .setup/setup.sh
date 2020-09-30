@@ -27,5 +27,6 @@ sudo apt install open-vm-tools
 sudo apt install open-vim-tools-desktop
 sudo apt install python3-rospkg-modules
 sudo apt install python3-catkin-pkg-modules
+sudo apt install ros-noetic-gazebo-ros-pkgs
 
 echo "Finished."
