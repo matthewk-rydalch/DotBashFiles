@@ -7,6 +7,10 @@ export PATH=~/.local/bin:$PATH
 #export PYTHONPATH=~/ws_rosflight/src/rosflight_holodeck/python
 #export PYTHONPATH=$PYTHONPATH:~/ws_rosflight/src/rosflight_holodeck/python/holodeck
 
+#px4_ws
+export PYTHONPATH=$PYTHONPATH:~/px4_ws/src/listener/scripts
+export PYTHONPATH=$PYTHONPATH:~/px4_ws/src/control_px4/scripts
+
 source ~/.rosrc
 #cuda installation
 export PATH=/usr/local/cuda/bin:$PATH
@@ -23,6 +27,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 #source ~/ws_rosflight/devel/setup.bash
 # source ~/ws_rtkflight/devel/setup.bash
 alias rtksrc='source ~/ws_rtkflight/devel/setup.bash'
+alias px4src='source ~/px4_ws/devel/setup.bash'
 #source ~/catkin_ws/devel/setup.bash
 alias cwssrc='source ~/catkin_ws/devel/setup.bash'
 alias cellsrc='source ~/auto_sys/cell_ws/devel/setup.bash'
