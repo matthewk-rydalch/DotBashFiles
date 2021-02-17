@@ -10,6 +10,7 @@ export PATH=~/.local/bin:$PATH
 #px4_ws
 export PYTHONPATH=$PYTHONPATH:~/px4_ws/src/listener/scripts
 export PYTHONPATH=$PYTHONPATH:~/px4_ws/src/control_px4/scripts
+export GAZEBO_PLUGIN_PATH=~/px4_ws/src/PX4-Autopilot/Tools/sitl_gazebo/worlds/build:$GAZEBO_PLUGIN_PATH
 
 source ~/.rosrc
 #cuda installation
