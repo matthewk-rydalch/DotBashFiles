@@ -1,16 +1,11 @@
-#alias =""
+#Need to go through and slim this down
+#alias aliasName=''
+alias vpn_go='./Software/gp-saml-gui/gp_saml_gui.py --no-verify -S 108.178.147.165 -- --servercert=pin-sha256:xK9nEMiYgnAL2aQpJsclnMjU2K6ufq8QRFzKNb3f2Ao='
 
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1='\[\033[01;32m\]\u\[\033[01;34m\] \w\[\033[00;33m\]$(__git_ps1)\[\033[01;32m\] \$\[\033[00m\] '
 
 export PATH=~/.local/bin:$PATH
-#export PYTHONPATH=~/ws_rosflight/src/rosflight_holodeck/python
-#export PYTHONPATH=$PYTHONPATH:~/ws_rosflight/src/rosflight_holodeck/python/holodeck
-
-#px4_ws
-export PYTHONPATH=$PYTHONPATH:~/px4_ws/src/listener/scripts
-export PYTHONPATH=$PYTHONPATH:~/px4_ws/src/control_px4/scripts
-export GAZEBO_PLUGIN_PATH=~/px4_ws/src/PX4-Autopilot/Tools/sitl_gazebo/worlds/build:$GAZEBO_PLUGIN_PATH
 
 source ~/.rosrc
 #cuda installation
@@ -21,21 +16,5 @@ export PATH=/usr/local/opencv/bin:$PATH
 # virtual environment
 export WORKON_HOME=$HOME/.venvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-###source $HOME/.local/bin/virtualenvwrapper.sh #not needed for laptop
-#source ~/.venvs/holodeck/bin/activate
 
-#source ~/rosbag_ws/devel/setup.bash
-#source ~/ws_rosflight/devel/setup.bash
-# source ~/ws_rtkflight/devel/setup.bash
-alias rtksrc='source ~/ws_rtkflight/devel/setup.bash'
-alias px4src='source ~/px4_ws/devel/setup.bash'
-#source ~/catkin_ws/devel/setup.bash
-alias cwssrc='source ~/catkin_ws/devel/setup.bash'
-alias cellsrc='source ~/auto_sys/cell_ws/devel/setup.bash'
-alias vizsrc='source ~/viz_MR/quadsim_ws/devel/setup.bash'
-
-alias catkin_make_py3='catkin_make -DPYTHON_EXECUTABLE=$(which python3)'
-#
-# echo $ROS_PYTHON_VERSION
 ROS_PYTHON_VERSION=3
-# echo $ROS_PYTHON_VERSION
