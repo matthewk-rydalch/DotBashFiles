@@ -1,6 +1,1 @@
 source /opt/ros/noetic/setup.bash
-#source .ragnarok_indoor_host
-#source .ragnarok_outdoor_host
-#source ~/ws/devel/setup.bash
-
-#export ROS_PYTHON_VERSION=3
